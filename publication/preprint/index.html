@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: May 31, 2023 --><html lang="en-us" >
+<!-- Last Published: June 1, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -234,6 +234,49 @@
   
   
 
+  <meta name="google-site-verification" content="Ramandeep Narwal" />
+  <meta name="baidu-site-verification" content="Ramandeep Narwal" />
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=Ramandeep%20Narwal"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'Ramandeep Narwal', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -245,7 +288,15 @@
 
 
 
-
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?Ramandeep Narwal";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -312,8 +363,8 @@
 
 <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="twitter:site" content="@wowchemy" />
-  <meta property="twitter:creator" content="@wowchemy" />
+  <meta property="twitter:site" content="@Ramandeep Narwal" />
+  <meta property="twitter:creator" content="@Ramandeep Narwal" />
 <meta property="twitter:image" content="https://rnarwal.github.io/publication/preprint/featured.jpg" />
 <meta property="og:site_name" content="Ramandeep Narwal" />
 <meta property="og:url" content="https://rnarwal.github.io/publication/preprint/" />
@@ -753,13 +804,6 @@
 
         
         
-          
-            
-            <li class="nav-item d-none d-lg-inline-flex">
-              <a class="nav-link" href="https://twitter.com/narwalramandeep" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-            </li>
           
         
 
@@ -1213,25 +1257,6 @@
     
     
     
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/narwalramandeep" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
     
     
     
@@ -1240,7 +1265,7 @@
     
     <li>
       <a href="https://scholar.google.com/citations?user=fmI31MkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="fas fa-graduation-cap"></i>
+        <i class="ai ai-google-scholar"></i>
       </a>
     </li>
   
@@ -1258,6 +1283,23 @@
     <li>
       <a href="https://www.linkedin.com/in/rnarwal/" target="_blank" rel="noopener">
         <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/narwalramandeep" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
       </a>
     </li>
   
@@ -1341,7 +1383,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2023 Ramandeep Narwal. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
