@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ramandeep Narwal</title>
-    <link>https://rnarwal.github.io/</link>
-      <atom:link href="https://rnarwal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.ramandeepnarwal.com/</link>
+      <atom:link href="https://www.ramandeepnarwal.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Ramandeep Narwal</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://rnarwal.github.io/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.ramandeepnarwal.com/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png</url>
       <title>Ramandeep Narwal</title>
-      <link>https://rnarwal.github.io/</link>
+      <link>https://www.ramandeepnarwal.com/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://rnarwal.github.io/talk/example-talk/</link>
+      <link>https://www.ramandeepnarwal.com/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/talk/example-talk/</guid>
+      <guid>https://www.ramandeepnarwal.com/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Analysis and Characterization of Four-quadrant Switches based Commutation Cell</title>
-      <link>https://rnarwal.github.io/publication/commutation_analysis/</link>
+      <link>https://www.ramandeepnarwal.com/publication/commutation_analysis/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/commutation_analysis/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/commutation_analysis/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -61,9 +61,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Power Conversion Systems Enabled by SiC BiDFET Device</title>
-      <link>https://rnarwal.github.io/publication/magazine_converter/</link>
+      <link>https://www.ramandeepnarwal.com/publication/magazine_converter/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/magazine_converter/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/magazine_converter/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -88,9 +88,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>The BiDFET Device and Its Impact on Converters</title>
-      <link>https://rnarwal.github.io/publication/magazine_device/</link>
+      <link>https://www.ramandeepnarwal.com/publication/magazine_device/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/magazine_device/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/magazine_device/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -115,9 +115,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Design Considerations for Developing 1.2 kV 4H-SiC BiDFET-enabled Power Conversion Systems</title>
-      <link>https://rnarwal.github.io/publication/ecce2022_ajit_pcs/</link>
+      <link>https://www.ramandeepnarwal.com/publication/ecce2022_ajit_pcs/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/ecce2022_ajit_pcs/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/ecce2022_ajit_pcs/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -142,9 +142,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Optimized AC/DC Dual Active Bridge Converter using Monolithic SiC Bidirectional FET (BiDFET) for Solar PV Applications</title>
-      <link>https://rnarwal.github.io/publication/ecce2021_suyash_single_phase/</link>
+      <link>https://www.ramandeepnarwal.com/publication/ecce2021_suyash_single_phase/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/ecce2021_suyash_single_phase/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/ecce2021_suyash_single_phase/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -169,9 +169,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://rnarwal.github.io/post/getting-started/</link>
+      <link>https://www.ramandeepnarwal.com/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/post/getting-started/</guid>
+      <guid>https://www.ramandeepnarwal.com/post/getting-started/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
@@ -249,9 +249,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Writing technical content in Markdown</title>
-      <link>https://rnarwal.github.io/post/writing-technical-content/</link>
+      <link>https://www.ramandeepnarwal.com/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/post/writing-technical-content/</guid>
+      <guid>https://www.ramandeepnarwal.com/post/writing-technical-content/</guid>
       <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
@@ -351,7 +351,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-291684753&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-185246973&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -361,7 +361,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-291684753&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-185246973&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -643,9 +643,9 @@ Crash --&gt; [*]
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>https://rnarwal.github.io/post/jupyter/</link>
+      <link>https://www.ramandeepnarwal.com/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/post/jupyter/</guid>
+      <guid>https://www.ramandeepnarwal.com/post/jupyter/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;IPython.core.display&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
@@ -702,9 +702,9 @@ Crash --&gt; [*]
     
     <item>
       <title>Slides</title>
-      <link>https://rnarwal.github.io/slides/example/</link>
+      <link>https://www.ramandeepnarwal.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/slides/example/</guid>
+      <guid>https://www.ramandeepnarwal.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -827,9 +827,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>https://rnarwal.github.io/project/example/</link>
+      <link>https://www.ramandeepnarwal.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/project/example/</guid>
+      <guid>https://www.ramandeepnarwal.com/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -840,17 +840,17 @@ $$&lt;/p&gt;
     
     <item>
       <title>External Project</title>
-      <link>https://rnarwal.github.io/project/external-project/</link>
+      <link>https://www.ramandeepnarwal.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/project/external-project/</guid>
+      <guid>https://www.ramandeepnarwal.com/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://rnarwal.github.io/admin/config.yml</link>
+      <link>https://www.ramandeepnarwal.com/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/admin/config.yml</guid>
+      <guid>https://www.ramandeepnarwal.com/admin/config.yml</guid>
       <description></description>
     </item>
     

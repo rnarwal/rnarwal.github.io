@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Ramandeep Narwal</title>
-    <link>https://rnarwal.github.io/publication_types/</link>
-      <atom:link href="https://rnarwal.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.ramandeepnarwal.com/publication_types/</link>
+      <atom:link href="https://www.ramandeepnarwal.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://rnarwal.github.io/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.ramandeepnarwal.com/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png</url>
       <title>Publication_types</title>
-      <link>https://rnarwal.github.io/publication_types/</link>
+      <link>https://www.ramandeepnarwal.com/publication_types/</link>
     </image>
     
   </channel>

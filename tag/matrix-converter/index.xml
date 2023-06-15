@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>matrix converter | Ramandeep Narwal</title>
-    <link>https://rnarwal.github.io/tag/matrix-converter/</link>
-      <atom:link href="https://rnarwal.github.io/tag/matrix-converter/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.ramandeepnarwal.com/tag/matrix-converter/</link>
+      <atom:link href="https://www.ramandeepnarwal.com/tag/matrix-converter/index.xml" rel="self" type="application/rss+xml" />
     <description>matrix converter</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://rnarwal.github.io/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.ramandeepnarwal.com/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png</url>
       <title>matrix converter</title>
-      <link>https://rnarwal.github.io/tag/matrix-converter/</link>
+      <link>https://www.ramandeepnarwal.com/tag/matrix-converter/</link>
     </image>
     
     <item>
       <title>Analysis and Characterization of Four-quadrant Switches based Commutation Cell</title>
-      <link>https://rnarwal.github.io/publication/commutation_analysis/</link>
+      <link>https://www.ramandeepnarwal.com/publication/commutation_analysis/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/commutation_analysis/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/commutation_analysis/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -41,9 +41,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Power Conversion Systems Enabled by SiC BiDFET Device</title>
-      <link>https://rnarwal.github.io/publication/magazine_converter/</link>
+      <link>https://www.ramandeepnarwal.com/publication/magazine_converter/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/magazine_converter/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/magazine_converter/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -68,9 +68,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>The BiDFET Device and Its Impact on Converters</title>
-      <link>https://rnarwal.github.io/publication/magazine_device/</link>
+      <link>https://www.ramandeepnarwal.com/publication/magazine_device/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://rnarwal.github.io/publication/magazine_device/</guid>
+      <guid>https://www.ramandeepnarwal.com/publication/magazine_device/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
