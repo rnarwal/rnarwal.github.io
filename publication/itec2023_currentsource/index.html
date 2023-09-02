@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: September 2, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+  <meta name="google-site-verification" content="Ramandeep Narwal" />
+  <meta name="baidu-site-verification" content="Ramandeep Narwal" />
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=Ramandeep%20Narwal"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'Ramandeep Narwal', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?Ramandeep Narwal";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Ramandeep Narwal" />
+
+
+
+
+
+  
+
+<meta name="description" content="The 1.2 kV 4H-SiC BiDirectional Field Effect Transistor (BiDFET) is the first monolithic SiC bidirectional switch, which offers a lower voltage drop and semiconductor devices count alternative to the reverse-voltage-blocking (RB) switch used in the current-source converters (CSC). The bidirectional switch based CSC also allows DC-link current reversal for bidirectional power flow and provides multiple system-level benefits in a buck-boost AC/DC system consisting of buck-type DC/DC converter and CSC. This paper discusses the selection of buck converter duty cycle and CSC modulation index for the system’s buck-boost operation with a wide variation in DC voltage. CSC modulation schemes categorized based on the number of hard-turn-on transitions per switching cycle are also analyzed along with the three-step and four-step commutation schemes that are essential for the CSC commutation cells. Finally, the different schemes are evaluated and compared through the experimental results of a 10 kW, 480 V&lt;sub&gt;RMS, LL&lt;/sub&gt;/ (400 − 800) V AC/DC system." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://www.ramandeepnarwal.com/publication/itec2023_currentsource/" />
+<link rel="canonical" href="https://www.ramandeepnarwal.com/publication/itec2023_currentsource/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@Ramandeep Narwal" />
+  <meta property="twitter:creator" content="@Ramandeep Narwal" />
+<meta property="twitter:image" content="https://www.ramandeepnarwal.com/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Ramandeep Narwal" />
+<meta property="og:url" content="https://www.ramandeepnarwal.com/publication/itec2023_currentsource/" />
+<meta property="og:title" content="Bidirectional Three-phase Current Source Converter based Buck-boost AC/DC System using Bidirectional Switches | Ramandeep Narwal" />
+<meta property="og:description" content="The 1.2 kV 4H-SiC BiDirectional Field Effect Transistor (BiDFET) is the first monolithic SiC bidirectional switch, which offers a lower voltage drop and semiconductor devices count alternative to the reverse-voltage-blocking (RB) switch used in the current-source converters (CSC). The bidirectional switch based CSC also allows DC-link current reversal for bidirectional power flow and provides multiple system-level benefits in a buck-boost AC/DC system consisting of buck-type DC/DC converter and CSC. This paper discusses the selection of buck converter duty cycle and CSC modulation index for the system’s buck-boost operation with a wide variation in DC voltage. CSC modulation schemes categorized based on the number of hard-turn-on transitions per switching cycle are also analyzed along with the three-step and four-step commutation schemes that are essential for the CSC commutation cells. Finally, the different schemes are evaluated and compared through the experimental results of a 10 kW, 480 V&lt;sub&gt;RMS, LL&lt;/sub&gt;/ (400 − 800) V AC/DC system." /><meta property="og:image" content="https://www.ramandeepnarwal.com/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-07-25T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-07-25T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.ramandeepnarwal.com/publication/itec2023_currentsource/"
+  },
+  "headline": "Bidirectional Three-phase Current Source Converter based Buck-boost AC/DC System using Bidirectional Switches",
+  
+  "datePublished": "2023-07-25T00:00:00Z",
+  "dateModified": "2023-07-25T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ramandeep Narwal"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ramandeep Narwal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.ramandeepnarwal.com/media/icon_hu2f55818cf1bdf67f438cf80a771c10bb_44174_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "The 1.2 kV 4H-SiC BiDirectional Field Effect Transistor (BiDFET) is the first monolithic SiC bidirectional switch, which offers a lower voltage drop and semiconductor devices count alternative to the reverse-voltage-blocking (RB) switch used in the current-source converters (CSC). The bidirectional switch based CSC also allows DC-link current reversal for bidirectional power flow and provides multiple system-level benefits in a buck-boost AC/DC system consisting of buck-type DC/DC converter and CSC. This paper discusses the selection of buck converter duty cycle and CSC modulation index for the system’s buck-boost operation with a wide variation in DC voltage. CSC modulation schemes categorized based on the number of hard-turn-on transitions per switching cycle are also analyzed along with the three-step and four-step commutation schemes that are essential for the CSC commutation cells. Finally, the different schemes are evaluated and compared through the experimental results of a 10 kW, 480 V\u003csub\u003eRMS, LL\u003c/sub\u003e/ (400 − 800) V AC/DC system."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Bidirectional Three-phase Current Source Converter based Buck-boost AC/DC System using Bidirectional Switches | Ramandeep Narwal</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e10c3029f9687e45d974bf120fbda3d0" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Ramandeep Narwal</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Ramandeep Narwal</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#skills"><span>Technical Skills</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experiences"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Bidirectional Three-phase Current Source Converter based Buck-boost AC/DC System using Bidirectional Switches</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Ramandeep Narwal</span>, <span >
+      Subhashish Bhattacharya</span>, <span >
+      B. Jayant Baliga</span>, <span >
+      Douglas C. Hopkins</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/ITEC2023_BiDirectionalCSI_rnarwal.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/itec2023_currentsource/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/ITEC55900.2023.10186945" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The 1.2 kV 4H-SiC BiDirectional Field Effect Transistor (BiDFET) is the first monolithic SiC bidirectional switch, which offers a lower voltage drop and semiconductor devices count alternative to the reverse-voltage-blocking (RB) switch used in the current-source converters (CSC). The bidirectional switch based CSC also allows DC-link current reversal for bidirectional power flow and provides multiple system-level benefits in a buck-boost AC/DC system consisting of buck-type DC/DC converter and CSC. This paper discusses the selection of buck converter duty cycle and CSC modulation index for the system’s buck-boost operation with a wide variation in DC voltage. CSC modulation schemes categorized based on the number of hard-turn-on transitions per switching cycle are also analyzed along with the three-step and four-step commutation schemes that are essential for the CSC commutation cells. Finally, the different schemes are evaluated and compared through the experimental results of a 10 kW, 480 V<sub>RMS, LL</sub>/ (400 − 800) V AC/DC system.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>2023 IEEE Transportation Electrification Conference &amp; Expo (ITEC)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><!-- 
+
+<div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+
+
+
+
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+ -->
+<!-- 
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+</div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/bidirectional-switches/">Bidirectional switches</a>
+  
+  <a class="badge badge-light" href="/tag/four-quadrant-switches/">four-quadrant switches</a>
+  
+  <a class="badge badge-light" href="/tag/current-source-inverter/">current source inverter</a>
+  
+  <a class="badge badge-light" href="/tag/interleaved-buck-converter/">interleaved buck converter</a>
+  
+  <a class="badge badge-light" href="/tag/modulation/">modulation</a>
+  
+  <a class="badge badge-light" href="/tag/commutation/">commutation</a>
+  
+  <a class="badge badge-light" href="/tag/sic-bidirectional-fet/">SiC Bidirectional FET</a>
+  
+  <a class="badge badge-light" href="/tag/bidfet/">BiDFET</a>
+  
+  <a class="badge badge-light" href="/tag/csi/">CSI</a>
+  
+  <a class="badge badge-light" href="/tag/csc/">CSC</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.ramandeepnarwal.com%2Fpublication%2Fitec2023_currentsource%2F&amp;text=Bidirectional&#43;Three-phase&#43;Current&#43;Source&#43;Converter&#43;based&#43;Buck-boost&#43;AC%2FDC&#43;System&#43;using&#43;Bidirectional&#43;Switches" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.ramandeepnarwal.com%2Fpublication%2Fitec2023_currentsource%2F&amp;t=Bidirectional&#43;Three-phase&#43;Current&#43;Source&#43;Converter&#43;based&#43;Buck-boost&#43;AC%2FDC&#43;System&#43;using&#43;Bidirectional&#43;Switches" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Bidirectional%20Three-phase%20Current%20Source%20Converter%20based%20Buck-boost%20AC%2FDC%20System%20using%20Bidirectional%20Switches&amp;body=https%3A%2F%2Fwww.ramandeepnarwal.com%2Fpublication%2Fitec2023_currentsource%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.ramandeepnarwal.com%2Fpublication%2Fitec2023_currentsource%2F&amp;title=Bidirectional&#43;Three-phase&#43;Current&#43;Source&#43;Converter&#43;based&#43;Buck-boost&#43;AC%2FDC&#43;System&#43;using&#43;Bidirectional&#43;Switches" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Bidirectional&#43;Three-phase&#43;Current&#43;Source&#43;Converter&#43;based&#43;Buck-boost&#43;AC%2FDC&#43;System&#43;using&#43;Bidirectional&#43;Switches%20https%3A%2F%2Fwww.ramandeepnarwal.com%2Fpublication%2Fitec2023_currentsource%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ramandeepnarwal.com%2Fpublication%2Fitec2023_currentsource%2F&amp;title=Bidirectional&#43;Three-phase&#43;Current&#43;Source&#43;Converter&#43;based&#43;Buck-boost&#43;AC%2FDC&#43;System&#43;using&#43;Bidirectional&#43;Switches" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://www.ramandeepnarwal.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu33ac3235b9e35526207b7f1570c8ecda_1295239_270x270_fill_q75_lanczos_center.jpg" alt="Ramandeep Narwal"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.ramandeepnarwal.com/">Ramandeep Narwal</a></h5>
+      <h6 class="card-subtitle">Ph.D. student</h6>
+      <p class="card-text">Ramandeep Narwal is a Ph.D. student in the research group of Prof. Subhashish Bhattacharya at the FREEDM Systems Center, NC State University.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=fmI31MkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/rnarwal/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/narwalramandeep" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Ramandeep Narwal. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
